@@ -1,0 +1,18 @@
+meme_dict = {
+    "CRINGE": "Coś wyjątkowo dziwnego lub zawstydzającego",
+    "LOL": "Częsta reakcja na coś zabawnego",
+    "ROFL": "odpowiedz na żart",
+    "SHEESH": "lekka dezaprobata",
+    "CREEPY": "straszny, złowieszczy",
+    "AGGRO" : "stać się złym/agresywnym",
+    "RELL" : "zgadzam się z tobą",
+    "ESSA" : " coś łatwego",
+    
+            }
+word = input("Wpisz słowo, którego nie rozumiesz (używaj wielkich liter!): ")
+
+if word in meme_dict.keys():
+ print(meme_dict[word])
+else: 
+    pass
+    
